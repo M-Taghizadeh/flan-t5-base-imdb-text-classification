@@ -1,28 +1,28 @@
 ---
-license: apache-2.0
-tags:
-- generated_from_trainer
-metrics:
-- f1
-- accuracy
-model-index:
-- name: flan-t5-base-imdb-text-classification
-  results: 
-  - task:
-      name: Sequence-to-sequence Language Modeling
-      type: text2text-generation
-    dataset:
-      name: imdb
-      type: imdb
-      config: imdb
-      split: test
-      args: imdb
-    metrics:
-    - name: Accuracy
-      type: accuracy
-      value: 93.0000
-datasets:
-- imdb
+# license: apache-2.0
+# tags:
+# - generated_from_trainer
+# metrics:
+# - f1
+# - accuracy
+# model-index:
+# - name: flan-t5-base-imdb-text-classification
+#   results: 
+#   - task:
+#       name: Sequence-to-sequence Language Modeling
+#       type: text2text-generation
+#     dataset:
+#       name: imdb
+#       type: imdb
+#       config: imdb
+#       split: test
+#       args: imdb
+#     metrics:
+#     - name: Accuracy
+#       type: accuracy
+#       value: 93.0000
+# datasets:
+# - imdb
 ---
 
 <!-- This model card has been generated automatically according to the information the Trainer had access to. You
